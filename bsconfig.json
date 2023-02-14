@@ -1,0 +1,33 @@
+{
+  "name": "noble",
+  "reason": { "react-jsx": 3 },
+  "graphql": {
+    "apolloMode": true,
+    "templateTagImport": "gql",
+    "templateTagLocation": "@apollo/client",
+    "future-added-value": false
+  },
+  "bsc-flags": [],
+  "warnings": {
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "rescript-apollo-client",
+    "@reasonml-community/graphql-ppx"
+  ],
+  "ppx-flags": ["@reasonml-community/graphql-ppx/ppx", "@davesnx/styled-ppx/ppx" ],
+  "refmt": 3
+}

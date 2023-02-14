@@ -1,0 +1,18 @@
+{
+  "name": "noble",
+  "version": "0.0.1",
+  "description": "Noble",
+  "scripts": {},
+  "dependencies": {
+    "@apollo/client": "3.7.0",
+    "@rescript/react": "0.10.1",
+    "graphql": "15.4.0",
+    "rescript-apollo-client": "3.1.0",
+    "styled-components": "4.4.1"
+  },
+  "devDependencies": {
+    "@davesnx/styled-ppx": "0.33.4",
+    "@reasonml-community/graphql-ppx": "1.2.3",
+    "rescript": "10.0.1"
+  }
+}
